@@ -1,4 +1,4 @@
-const API_KEY = "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";
+const API_KEY = "YOUR_GROQ_API_KEY";
 
 const chat = document.getElementById("chat");
 const input = document.getElementById("messageInput");
