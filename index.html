@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Riverwood AI Assistant</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<header>
+
+<div class="logo">
+🏗 Riverwood AI
+</div>
+
+<div class="subtitle">
+AI Powered Construction Assistant
+</div>
+
+<div class="ai-badge">
+⚡ Powered by Llama-3.3-70B via Groq
+</div>
+
+</header>
+
+<!-- CHAT AREA -->
+
+<div id="chat"></div>
+
+<!-- TYPING INDICATOR -->
+
+<div id="typing" class="typing hidden">
+
+<div class="typing-dots">
+
+<span></span>
+<span></span>
+<span></span>
+
+</div>
+
+</div>
+
+<!-- QUICK QUESTIONS -->
+
+<div class="suggestions">
+
+<button onclick="quickAsk('What is the construction update today?')">
+Construction Update
+</button>
+
+<button onclick="quickAsk('What are the apartment prices?')">
+Pricing
+</button>
+
+<button onclick="quickAsk('Can I visit the site this weekend?')">
+Site Visit
+</button>
+
+</div>
+
+<!-- INPUT AREA -->
+
+<div class="inputArea">
+
+<input
+id="messageInput"
+placeholder="Ask about construction updates, pricing or site visits..."
+/>
+
+<button id="sendBtn">
+Send
+</button>
+
+<button id="voiceBtn">
+🎤
+</button>
+
+</div>
+
+</div>
+
+<!-- SCRIPTS -->
+
+<script src="app.js"></script>
+
+</body>
+
+</html>
